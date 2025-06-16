@@ -1,0 +1,82 @@
+# L# Built-in Functions
+
+## Overview
+This document lists all built-in functions available in L#, including those for creating user interface elements.
+
+---
+
+### `button`
+
+**Description:**  
+Creates a button UI element that can be customized with additional properties.
+
+**Syntax:**  
+```ls
+button
+```
+Chaining example:
+```ls
+Print = button = size("100x40") = text("Click Me!")
+```
+
+**Chained Functions:**
+- `size("widthxheight")` — Sets the button size.
+- `text("label")` — Sets the button’s displayed text.
+
+---
+
+### `size`
+
+**Description:**  
+Sets the size of a UI element.
+
+**Syntax:**  
+```ls
+size("widthxheight")
+```
+
+**Example:**
+```ls
+button = size("200x50")
+```
+
+---
+
+### `text`
+
+**Description:**  
+Sets the text of a UI element, such as a button or label.
+
+**Syntax:**  
+```ls
+text("Your Text Here")
+```
+
+**Example:**
+```ls
+button = text("Submit")
+```
+or
+```ls
+label = text("Username:")
+```
+
+---
+
+### `label`
+
+**Description:**  
+Creates a text label UI element.
+
+**Syntax:**  
+```ls
+label
+```
+Chaining example:
+```ls
+UsernameLabel = label = text("Username:")
+```
+
+---
+
+Feel free to expand this file as you add more UI-related functions!
