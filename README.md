@@ -1,2 +1,3 @@
-# LSharp
-:D
+## What is L#?
+
+L# is an experimental, expressive programming language designed for those who appreciate both complexity and creativity in coding. Inspired by modern language trends but with its own unique syntax, L# introduces powerful constructs for chaining operations and manipulating data in unconventional ways. Files written in L# use the `.ls` extension, and the language encourages users to think differently about programming by embracing custom function calls and non-standard assignment patterns. Whether you're exploring advanced programming concepts or building intricate logic flows, L# invites you to push the boundaries of code structure and expression.
