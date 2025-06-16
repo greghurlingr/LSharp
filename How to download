@@ -1,0 +1,43 @@
+## Getting Started with L#
+
+### 1. Install L#
+
+Clone the repository and install any required dependencies for the interpreter:
+```sh
+git clone https://github.com/yourusername/LSharp.git
+cd LSharp
+# For example, if L# is written in Python:
+pip install -r requirements.txt
+```
+
+### 2. Write Your First L# Program
+
+Create a new file with the `.ls` extension, for example `hello.ls`:
+
+```ls
+Print = lettervalue("10") = characters("2") = message("Hello, World!")
+```
+
+### 3. Run Your Program
+
+Use the L# interpreter to run your `.ls` file:
+```sh
+python interpreter/main.py hello.ls
+```
+*(Replace with your interpreter’s entrypoint if different.)*
+
+### 4. Learn the Syntax
+
+Check the [FUNCTIONS.md](docs/FUNCTIONS.md) file for a list of all available functions and their usage.
+
+### 5. Build More
+
+Try out UI elements and more complex logic:
+```ls
+myButton = button = size("100x40") = text("Click Me!")
+usernameLabel = label = text("Username:")
+```
+
+---
+
+For more information, see the [docs/](docs/) directory and example programs in the [examples/](examples/) folder.
